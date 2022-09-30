@@ -15,11 +15,20 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+    <dependency>  
+<groupId>org.seleniumhq.selenium</groupId>  
+<artifactId>selenium-java</artifactId>  
+<version>3.141.59</version>  
+</dependency>  
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.2</version>
+</dependency>
+<dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.12</version>
     </dependency>
   </dependencies>
 </project>
